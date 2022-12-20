@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@400;500&family=Sawarabi+Gothic&display=swap');
+
+img {
+    width: 100%;
+  }
+  
+  header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.0); /* 背景のみ半透明 */
+    }
+  #header-h1{
+    font-family: 'Kiwi Maru', serif;
+    font-size: 36px;
+    text-align: left;
+  }
+  body {
+    background-color:#fff;
+  }
+  h1,h2,h3,.box-title
+  { text-align: center;
+    font-family: 'Kiwi Maru', serif;
+    color:#6b395f;
+  }
+    p,li,a{
+      font-family: 'Sawarabi Gothic', sans-serif;
+     color:#6b5666;
+  }
+  article{
+    margin-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .linktree{
+    text-align: center;
+    background: rgba( 255, 250, 240, 0.5 );
+    box-shadow: 0 8px 32px 0 rgba(139, 140, 153, 0.37);
+    backdrop-filter: blur( 10.5px );
+    -webkit-backdrop-filter: blur( 10.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+  /*リンクボタン*/
+  .btn--link{
+    margin-bottom: 10px;
+  margin-top: 15px;
+  }
+  .btn--link,
+a.btn--link {
+  color: #fff;
+  background-color: #6b395f;
+  padding: 7px 7px 15px 15px;
+  margin: 10px 20px 30px 30px;
+  text-decoration: none;
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
+}
+.btn--link:hover,
+a.btn--link:hover {
+  color: #fff;
+  background: #cc6cb6;
+}
+a.btn--radius {
+   border-radius: 100vh;
+}
+/*リンクボタン終わり*/
+/*box1 制作中*/
+.box1
+{
+  padding-left: 20px;
+  padding-right: 20px;
+  background: rgba( 255, 250, 240, 0.5 );
+box-shadow: 0 8px 32px 0 rgba(149, 150, 168, 0.37);
+backdrop-filter: blur( 10.5px );
+-webkit-backdrop-filter: blur( 10.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+/*box終わり*/
+/*投稿カード　制作中*/
+.post-title
+{
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: #6b395f;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Sawarabi Gothic', sans-serif;
+  color: #6b5666;
+}
+/*投稿カード終わり*/
+
+
+/*カラーメモ*
+メインカラー(見出し)：#6b395f
+サブカラー(本文)：#6b5666
+アクセントカラー：#cc6cb6
+バックカラー：#fffaf0/
